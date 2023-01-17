@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UI-kit</title>
+    <link rel="stylesheet" href="Styles/style.css">
+</head>
+<body>
+    <div class="ui-kit">
+
+        <div class="inputs">
+            <div class="inputs__row">
+                <input class="input__text_dis" type="text" id="password_dis" placeholder="Password" disabled="disabled">
+                <div class="input__search_icon input__search_icon_dis">
+                    <input class="input__search_dis" type="search" id="search_dis" placeholder="Search" disabled="disabled">
+                </div>
+                <input class="input__number_dis" type="number" id="number_dis" value="1" min="1" max="99" disabled="disabled">
+                <label class="switch__label blue-white">
+                    <input class="switch blue-white" type="checkbox">
+                    <span class="switch__span blue-white"></span>
+                </label>
+                <label class="switch__label white-gray">
+                    <input class="switch white-gray" type="checkbox" disabled>
+                    <span class="switch__span white-gray"></span>
+                </label>
+                <div class="checkboxes">
+                    <input class="checkbox" type="checkbox" id="cb1"><label for="cb1"></label>
+                    <input class="checkbox" type="checkbox" id="cb2" checked disabled><label for="cb2"></label>
+                    <input class="checkbox" type="checkbox" id="cb3" checked><label for="cb3"></label>
+                </div>
+                <div class="slider-radio">
+                    <span class="slider__button arrow-left"></span>
+                    <div class="radios">
+                        <input class="slider__radio" name="slider__radio" type="radio" id="rs1"><label for="rs1"></label>
+                        <input class="slider__radio" name="slider__radio" type="radio" id="rs2" checked><label for="rs2"></label>
+                        <input class="slider__radio" name="slider__radio" type="radio" id="rs3"><label for="rs3"></label>
+                        <input class="slider__radio" name="slider__radio" type="radio" id="rs4"><label for="rs4"></label>
+                        <input class="slider__radio" name="slider__radio" type="radio" id="rs5"><label for="rs5"></label>
+                    </div>
+                    <span class="slider__button arrow-right"></span>
+                </div>
+            </div>
+            <div class="inputs__row">
+                <input class="input__text" type="text" id="password" placeholder="Password">
+                <div class="input__search_icon">
+                    <input class="input__search" type="search" id="search" placeholder="Search">
+                </div>
+                <input class="input__number" type="number" id="number" value="1" min="1" max="99">
+                <label class="switch__label light-blue">
+                    <input class="switch light-blue" type="checkbox">
+                    <span class="switch__span light-blue"></span>
+                </label>
+                <label class="switch__label gray-light">
+                    <input class="switch gray-light" type="checkbox" disabled>
+                    <span class="switch__span gray-light"></span>
+                </label>
+                <div class="radios">
+                    <input class="radio" name="radio" type="radio" id="rd1"><label for="rd1"></label>
+                    <input class="radio" type="radio" id="rd2" disabled checked><label for="rd2"></label>
+                    <input class="radio" name="radio" type="radio" id="rd3" checked><label for="rd3"></label>
+                </div>
+                <div class="pagination-slider pagination-slider__container">
+                    <span class="pagination-slider__number" name="p-s__number">1</span>
+                    <span class="pagination-slider__number active" name="p-s__number">2</span>
+                    <span class="pagination-slider__number" name="p-s__number">3</span>
+                    <span class="pagination-slider__number" name="p-s__number">4</span>
+                    <span class="pagination-slider__number" name="p-s__number">5</span>
+                </div>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <div class="buttons__row">
+                <button class="button gray-white square">BUTTON</button>
+                <button class="button light-gray square">BUTTON</button>
+                <button class="button gray-white round">BUTTON</button>
+                <button class="button light-gray round">BUTTON</button>
+                <div class="buttons-group gray">
+                    <button class="button gray-white square">ONE</button>
+                    <button class="button light-gray square">TWO</button>
+                </div>
+            </div>
+            <div class="buttons__row">
+                <button class="button black-white square">BUTTON</button>
+                <button class="button light-black square">BUTTON</button>
+                <button class="button black-white round">BUTTON</button>
+                <button class="button light-black round">BUTTON</button>
+                <div class="buttons-group black">
+                    <button class="button black-white square">ONE</button>
+                    <button class="button light-black square">TWO</button>
+                    <button class="button light-black square">THREE</button>
+                </div>
+            </div>
+            <div class="buttons__row">
+                <button class="button blue-white square">BUTTON</button>
+                <button class="button light-blue square">BUTTON</button>
+                <button class="button blue-white round">BUTTON</button>
+                <button class="button light-blue round">BUTTON</button>
+                <div class="buttons-group blue">
+                    <button class="button blue-white square">ONE</button>
+                    <button class="button light-blue square">TWO</button>
+                    <button class="button light-blue square">THREE</button>
+                    <button class="button light-blue square">FOUR</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="select-boxes">
+            <div class="select-row">
+                <select class="select__dis white" name="select" id="select" disabled>
+                    <option value="" disabled selected hidden>Select Box</option>
+                    <option value="option-1">Option 1</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                    <option value="option-4">Option 4</option>
+                </select>
+                <select class="select__dis black" name="select" id="select" disabled>
+                    <option value="" disabled selected hidden>Select Box</option>
+                    <option value="option-1">Option 1</option>
+                    <option value="option-2">Option 2</option>
+                    <option value="option-3">Option 3</option>
+                    <option value="option-4">Option 4</option>
+                </select>
+            </div>
+            <div class="select-row">
+                <select class="select white" name="select" id="select">
+                    <option value="" disabled selected hidden>Select Box</option>
+                    <option class="option_white" value="option-1">Option 1</option>
+                    <option class="option_white" value="option-2">Option 2</option>
+                    <option class="option_white" value="option-3">Option 3</option>
+                    <option class="option_white" value="option-4">Option 4</option>
+                </select>
+                <select class="select blue" name="select" id="select">
+                    <option value="" disabled selected hidden>Select Box</option>
+                    <option class="option_blue" value="option-1">Option 1</option>
+                    <option class="option_blue" value="option-2">Option 2</option>
+                    <option class="option_blue" value="option-3">Option 3</option>
+                    <option class="option_blue" value="option-4">Option 4</option>
+                </select>
+            </div>
+        </div>
+
+        <div class="others">
+            <div class="pagination-row">
+                <div class="pagination_section">
+                    <a href="#">FIRST</a>
+                    <a href="#">&#9204</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <span>...</span>
+                    <a href="#">20</a>
+                    <a href="#">30</a>
+                    <a href="#">40</a>
+                    <a href="#">&#9205</a>
+                    <a href="#">LAST</a>
+                </div>
+            </div>
+            <div class="bread-crump-row">
+                <div class="breadcrump">
+                    <a href="#link">BASKET</a>
+                    <a href="#link">YOUR DETAILS</a>
+                    <a href="#link">PAYMENT</a>
+                    <a href="#link" class="current">CONFIRMATION</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</body>
+</html>
